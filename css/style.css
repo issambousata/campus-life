@@ -1,0 +1,38 @@
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+#logo{
+    width: 200px;
+    height: 40px;
+}
+#nav{
+    list-style-type: none;
+    display:flex ;
+    flex-wrap: wrap;
+}
+#nav li a{
+    margin: 10px;
+    color: #0A1222;
+    text-decoration: none;
+}
+#button{
+    background-color: #034BFF;
+    width: 120px;
+    height: 40px;
+    margin: auto 30px;
+    top: 12px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700 px;
+    font-style: initial;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 120%;
+    
+
+}
