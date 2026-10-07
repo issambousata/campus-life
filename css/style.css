@@ -36,3 +36,61 @@ header{
     
 
 }
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 100%;
+    background-color: #08111D;
+}
+aside div{
+    background-color:#08111D;
+    width: 26%;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+aside div h1{
+    font-size: 80px;
+    font-weight:900;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+aside img{
+    width: 60%;
+}
+aside div #button1{
+    width: 184px;
+    height: 42px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #034BFF;
+}
+aside div #button2{
+    color: #FFFFFF;
+    border: #8EABFF 2px solid;
+    width: 176px;
+    height: 42px;
+    border-radius: 5px;
+    margin-left: 8px;
+    background-color: #08111d00;
+}
+aside div div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+aside div div div h5{
+    padding: 10px;
+    border-radius: 50%;
+    color: #0A1222;
+}
+aside div div div{
+    width: 40%;
+}
+aside div div p{
+    font-size: small;
+    margin-top: 24px;
+    width: 40%;
+}
+
+
