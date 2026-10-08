@@ -1,9 +1,13 @@
 
+body{
+  font-family: "Inter", sans-serif;
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #FFFFFF;
 }
 #logo{
@@ -22,50 +26,48 @@ header{
 }
 #button{
     background-color: #034BFF;
-    width: 120px;
-    height: 40px;
     margin: auto 30px;
+    padding: 4px 40px;
     top: 12px;
     border-radius: 5px;
     color: #FFFFFF;
-    font-weight: 700 px;
-    font-style: initial;
-    font-weight: bold;
-    font-size: 12px;
+    font-weight:bold;
+    font-size: 16px;
     line-height: 120%;
+    text-decoration: none;
     
 
 }
-aside {
+#hero {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
     width: 100%;
     background-color: #08111D;
 }
-aside div{
-    background-color:#08111D;
-    width: 26%;
+#hero div{
+    background-color: #08111D;
+    width: 35%;
     color: #FFFFFF;
     font-family: sans-serif;
 }
-aside div h1{
+#hero div h1{
     font-size: 80px;
     font-weight:900;
     margin-top: 70px;
     margin-bottom: 0px;
 }
-aside img{
+#hero img{
     width: 60%;
 }
-aside div #button1{
+#hero div #button1{
     width: 184px;
     height: 42px;
     border-radius: 5px;
     color: #FFFFFF;
     background-color: #034BFF;
 }
-aside div #button2{
+#hero div #button2{
     color: #FFFFFF;
     border: #8EABFF 2px solid;
     width: 176px;
@@ -74,23 +76,46 @@ aside div #button2{
     margin-left: 8px;
     background-color: #08111d00;
 }
-aside div div{
+#hero div div{
     width: 100%;
     display: flex;
     justify-content: start;
 }
-aside div div div h5{
+#hero div div div h5{
     padding: 10px;
     border-radius: 50%;
     color: #0A1222;
 }
-aside div div div{
+#hero div div div{
     width: 40%;
 }
-aside div div p{
+#hero div div p{
     font-size: small;
     margin-top: 24px;
     width: 40%;
+}
+#statistiques {
+    display: flex;
+    width: 94%;
+    margin: auto;
+    
+}
+.article{
+    display: flex;
+    
+}
+.article h1{
+    margin: auto 30px;
+    color: #034BFF;
+
+}
+#statistiques hr{
+    height: 50px;
+    margin: auto;
+}
+.article div h2{
+    font-family: sans-serif;
+    font-weight: 900;
 }
 
 
