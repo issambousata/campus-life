@@ -125,65 +125,40 @@ header{
     background-color: #F4F7FC;
     width: 100%;
 }
-#présentation #article{
+#présentation #text{
     background-color:#F4F7FC ;
-    width: 40%;
+    width: 38.5%;
 }
-#présentation #article h2{
+#présentation #text h2{
     font-size:xx-large;
+    margin-left: 0px;
     font-weight: 900;
 }
 #présentation #images{
     padding: 40px 140px ;
+    display: flex;
+    justify-content: center;
     background-color: #F4F7FC;
 }
-#présentation #images #image1{
+#présentation #images #image1 img{
     transform: rotate(-16deg);
 }
-#présentation #images #image2{
+#présentation #images #image2 img{
     transform: rotate(10deg);
 }
 #présentation #images #image3{
     margin-bottom:60px ;
 }
-#présentation #images #div1{
-    width: 50px;
-    height: 50px;
-    background-color: blue;
-    margin-left: 250px;
-    margin-bottom: -25px;
-    border-radius: 5px;
-    transform: rotate(20deg);
-}
-#présentation #images #div2{
-    width: 25px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    height: 50px;
-    margin-top: -58px;
-    margin-left: -10px;
-    transform: rotate(-20deg);
-    background-color: blue;
-}
-#présentation #images h6{
-    position: absolute;
+#présentation #images div p{
     background-color: #08111D;
     color: white;
-    padding: 8px 15px;
     border-radius: 5px;
-}
-#présentation #images #titre1{
-    margin-left: 35px;
+    padding: 6px;
     margin-top: -10px;
+    position: relative;
+    z-index: 1;
 }
-#présentation #images #titre2{
-    margin-left: 220px;
-    margin-top: -10px;
-}
-#présentation #images #titre3{
-    margin-left: 385px;
-    margin-top: -70px;
-}
+
 #parcours_section{
     width: 100%;
     background-color: #08111D;
@@ -220,4 +195,108 @@ header{
     padding: 13px;
     border-radius: 50%;
     color: #FFFFFF;
+}
+#événements {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    /* height: 1000px; */
+    gap: 20px;
+}
+#Intro {
+    width: 30%;
+    padding-top: 30px;
+    background-color: #034BFF;
+    color: #FFFFFF;
+   border-radius: 10px;
+}
+#Intro p , h2 , #link {
+    width: 80%;
+    margin:30px auto;
+}
+#Intro h2 {
+    font-size: xx-large;
+    font-weight: 700;
+}
+#Intro a {
+    background-color: #FFFFFF;
+    padding: 16px;
+    color: #034BFF;
+    text-decoration: none;
+   border-radius: 10px;
+}
+#cartes {
+    display: flex;
+    gap: 20px;
+    width: 65%;
+}
+#cartes div {
+   width: 33%;
+   height: 350px;
+   border-radius: 10px;
+   border: 1px solid rgb(79, 78, 78);
+
+}
+#cartes div img {
+    width: 100%;
+    border-radius: 5px;
+}
+#cartes div a {
+    border: 1px solid #034BFF;
+    color: #034BFF;
+    display: block; 
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: auto; 
+    text-decoration: none;
+   border-radius: 10px;
+}
+#cartes div a:hover {
+    background-color: #034BFF;
+    color: #FFFFFF;
+}
+.carte h3 , .carte p  {
+    width: 80%;
+    margin:20px auto;
+}
+#témoignage {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin:15px auto;
+    background-color: #6b7fb1;
+}
+#témoignage #photo img{
+    margin-top: 20px;
+}
+#témoignage #citation {
+    background-color: aqua;
+    width: 50%;
+}
+#témoignage #citation #paragraphe {
+    font-weight: 500;
+    font-size: x-large;
+}
+#témoignage #citation #auteur {
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left:#034BFF 4px solid;
+}
+#témoignage #citation #apprenant{
+    font-size: small;
+    font-weight: 300;
+}
+#témoignage #citation #points{
+    color: #034BFF;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: -10px;
+    text-align: center;
+}
+#témoignage #citation #flèches {
+    display: block;
+    font-size:xx-large ;
 }
