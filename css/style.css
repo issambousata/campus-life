@@ -1,43 +1,47 @@
-
-body{
-  font-family: "Inter", sans-serif;
+body {
+    font-family: "Inter", sans-serif;
 }
 
-header{
+header {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     justify-content: space-around;
     background-color: #FFFFFF;
 }
-#logo{
+
+#logo {
     width: 200px;
     height: 40px;
 }
-#nav{
+
+#nav {
     list-style-type: none;
-    display:flex ;
+    display: flex;
     flex-wrap: wrap;
 }
-#nav li a{
+
+#nav li a {
     margin: 10px;
     color: #0A1222;
     text-decoration: none;
 }
-#button{
+
+#button {
     background-color: #034BFF;
     margin: auto 30px;
     padding: 4px 40px;
     top: 12px;
     border-radius: 5px;
     color: #FFFFFF;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 16px;
     line-height: 120%;
     text-decoration: none;
-    
+
 
 }
+
 #hero {
     display: flex;
     flex-wrap: wrap;
@@ -45,30 +49,35 @@ header{
     width: 100%;
     background-color: #08111D;
 }
-#hero div{
+
+#hero div {
     background-color: #08111D;
     width: 35%;
     color: #FFFFFF;
     font-family: sans-serif;
 }
-#hero div h1{
+
+#hero div h1 {
     font-size: 80px;
-    font-weight:900;
+    font-weight: 900;
     margin-top: 70px;
     margin-bottom: 0px;
 }
-#hero img{
+
+#hero img {
     width: 60%;
 }
-.button1{
+
+.button1 {
     width: 184px;
     height: 42px;
     border-radius: 5px;
     color: #FFFFFF;
-    border: 2px solid #034BFF ;
+    border: 2px solid #034BFF;
     background-color: #034BFF;
 }
-#button2{
+
+#button2 {
     color: #FFFFFF;
     border: #8EABFF 2px solid;
     width: 176px;
@@ -77,79 +86,96 @@ header{
     margin-left: 8px;
     background-color: #08111d00;
 }
-#hero div div{
+
+#hero div div {
     width: 100%;
     display: flex;
     justify-content: start;
 }
-#hero div div div h5{
+
+#hero div div div h5 {
     padding: 10px 13px;
     border-radius: 50%;
     color: #0A1222;
 }
-#hero div div div{
+
+#hero div div div {
     width: 40%;
 }
-#hero div div p{
+
+#hero div div p {
     font-size: small;
     margin-top: 24px;
     width: 40%;
 }
+
 #statistiques {
     display: flex;
     width: 94%;
     margin: auto;
-    
-}
-.article{
-    display: flex;
-    
-}
-.article i{
-    margin: auto 30px;
-    color: #034BFF;
-    
 
 }
-#statistiques hr{
+
+.article {
+    display: flex;
+
+}
+
+.article i {
+    margin: auto 30px;
+    color: #034BFF;
+
+
+}
+
+#statistiques hr {
     height: 50px;
     margin: auto;
 }
-.article div h2{
+
+.article div h2 {
     font-family: sans-serif;
     font-weight: 900;
 }
-#présentation{
+
+#présentation {
     display: flex;
     justify-content: end;
     background-color: #F4F7FC;
     width: 100%;
 }
-#présentation #text{
-    background-color:#F4F7FC ;
+
+#présentation #text {
+    background-color: #F4F7FC;
     width: 38.5%;
 }
-#présentation #text h2{
-    font-size:xx-large;
+
+#présentation #text h2 {
+    font-size: xx-large;
     margin-left: 0px;
     font-weight: 900;
 }
-#présentation #images{
-    padding: 40px 140px ;
+
+#présentation #images {
+    padding: 40px 140px;
     display: flex;
     justify-content: center;
     background-color: #F4F7FC;
 }
-#présentation #images #image1 img{
+
+#présentation #images #image1 img {
     transform: rotate(-16deg);
 }
-#présentation #images #image2 img{
+
+#présentation #images #image2 img {
     transform: rotate(10deg);
 }
-#présentation #images #image3{
-    margin-bottom:60px ;
+
+#présentation #images #image3 {
+    margin-bottom: 60px;
 }
-#présentation #images div p{
+
+#présentation #images div p {
     background-color: #08111D;
     color: white;
     border-radius: 5px;
@@ -159,43 +185,49 @@ header{
     z-index: 1;
 }
 
-#parcours_section{
+#parcours_section {
     width: 100%;
     background-color: #08111D;
     color: #FFFFFF;
 }
+
 #parcours_section h2 {
-    font-size:60px;
+    font-size: 60px;
     font-weight: 800;
     margin-left: 5%;
     padding-top: 30px;
 }
-#parcours_section > p {
+
+#parcours_section>p {
     margin-left: 5.5%;
     font-weight: 500;
     font-size: 20px;
 }
 
-#parcours_div{
+#parcours_div {
     display: flex;
-    margin-left:5%;
+    margin-left: 5%;
 }
-#parcours_div .ligne{
+
+#parcours_div .ligne {
     width: 100px;
     border: none;
     border-top: 2px dashed #FFFFFF;
     margin-top: 80px;
 
-    
+
 }
-#parcours_div div{
+
+#parcours_div div {
     text-align: center;
 }
-#parcours_div i{
+
+#parcours_div i {
     padding: 13px;
     border-radius: 50%;
     color: #FFFFFF;
 }
+
 #événements {
     display: flex;
     width: 100%;
@@ -204,99 +236,276 @@ header{
     /* height: 1000px; */
     gap: 20px;
 }
+
 #Intro {
     width: 30%;
     padding-top: 30px;
     background-color: #034BFF;
     color: #FFFFFF;
-   border-radius: 10px;
+    border-radius: 10px;
 }
-#Intro p , h2 , #link {
+
+#Intro p,
+h2,
+#link {
     width: 80%;
-    margin:30px auto;
+    margin: 30px auto;
 }
+
 #Intro h2 {
     font-size: xx-large;
     font-weight: 700;
 }
+
 #Intro a {
     background-color: #FFFFFF;
     padding: 16px;
     color: #034BFF;
     text-decoration: none;
-   border-radius: 10px;
+    border-radius: 10px;
 }
+
 #cartes {
     display: flex;
     gap: 20px;
     width: 65%;
 }
+
 #cartes div {
-   width: 33%;
-   height: 350px;
-   border-radius: 10px;
-   border: 1px solid rgb(79, 78, 78);
+    width: 33%;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(79, 78, 78);
 
 }
+
 #cartes div img {
     width: 100%;
     border-radius: 5px;
 }
+
 #cartes div a {
     border: 1px solid #034BFF;
     color: #034BFF;
-    display: block; 
+    display: block;
     width: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
-    margin: auto; 
+    margin: auto;
     text-decoration: none;
-   border-radius: 10px;
+    border-radius: 10px;
 }
+
 #cartes div a:hover {
     background-color: #034BFF;
     color: #FFFFFF;
 }
-.carte h3 , .carte p  {
+
+.carte h3,
+.carte p {
     width: 80%;
-    margin:20px auto;
+    margin: 20px auto;
 }
+
 #témoignage {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin:15px auto;
-    background-color: #6b7fb1;
+    margin: 15px auto;
+    background-color: #F4F7FC;
 }
-#témoignage #photo img{
+
+#témoignage #photo img {
     margin-top: 20px;
 }
+
 #témoignage #citation {
-    background-color: aqua;
     width: 50%;
 }
+
 #témoignage #citation #paragraphe {
     font-weight: 500;
     font-size: x-large;
 }
+
 #témoignage #citation #auteur {
-    margin-left: 10px;
+    margin-left: 18px;
+    margin-top: -10px;
     padding-left: 10px;
-    border-left:#034BFF 4px solid;
+    border-left: #034BFF 4px solid;
 }
-#témoignage #citation #apprenant{
+
+#témoignage #citation #apprenant {
     font-size: small;
+    margin-top: -15px;
     font-weight: 300;
 }
-#témoignage #citation #points{
+
+#témoignage #citation #points {
     color: #034BFF;
-    font-size: xx-large;
-    font-weight: 900;
     margin-top: -10px;
     text-align: center;
 }
-#témoignage #citation #flèches {
-    display: block;
-    font-size:xx-large ;
+
+#témoignage #flèches {
+    padding-top: 6%;
+}
+
+#témoignage #flèches i {
+    font-size: 50px;
+}
+
+footer {
+    background-color: #08111D;
+    margin-top: -19px;
+    color: #FFFFFF;
+}
+
+footer #div1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer #div1 #footer_paragraphe {
+    width: 30%;
+}
+footer #div1 #footer_paragraphe p {
+    font-size:20px;
+    color: #B2BDB3;
+}
+
+footer #div1 #footer_paragraphe h2 {
+    margin-left: 0px;
+}
+
+footer #div1 ul li {
+    margin: 15px;
+    list-style-type: none;
+}
+footer #div1 ul li a{
+    text-decoration: none;
+    color: #F4F6F0;
+}
+
+footer #div1 h4 {
+    color: #C3F85C;
+    font-weight: 250;
+    font-size: small;
+}
+
+footer #div1 #footer_button {
+    margin-left: -130px;
+    padding-top: 15px;
+}
+
+footer #div1 #footer_button h4 {
+    margin-bottom: 45px;
+    text-align: end;
+}
+
+footer #div1 #footer_button a {
+    background-color: #C3F85C;
+    padding: 20px 80px 20px 20px;
+    text-decoration: none;
+    color: #101211;
+    border-radius: 10px;
+}
+footer #div2 {
+    width: 90.5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer #div2 p {
+    color: #B2BDB3;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: small;
+    margin: 40px 0px;
+}
+
+
+/* la deuxieme page (campus) */
+main h4 , h5 {
+    color: #034BFF;
+    font-family: "IBM Plex Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-size: small;
+}
+main h5 {
+    font-size: 10px;
+}
+main h4{
+    width: 88%;
+    margin: 60px auto -10px auto;
+}
+main p {
+    color: #47526A;
+}
+main h2 , h1 {
+    color: #0A1222;
+    font-weight: 900;
+    width: 88%;
+    margin:30px auto;
+}
+main #campus_hero #campuss {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 88%;
+    margin: auto;
+}
+main #campus_hero #campuss div {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DDE4F0;
+
+}
+main #espaces {
+    background-color: #F4F7FC;
+    padding-top: 1px;
+    margin-top: 40px;
+    
+}
+main  p {
+    width: 88%;
+    margin:auto auto 20px auto;
+
+}
+main h5 , h3 {
+    width: 88%;
+    margin:15px auto;
+}
+main #espaces_cartes {
+    background-color: #F4F7FC;
+    width: 88%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+main #espaces_cartes div img{
+    width: 100%;
+    height: 270px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main #espaces_cartes div {
+    width: 48%;
+    border: 1px solid #DDE4F0;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+footer #footer_page {
+    width: 87%;
+    border-top: 1px solid #343B36;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
